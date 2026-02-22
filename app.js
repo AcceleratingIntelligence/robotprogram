@@ -2,6 +2,8 @@
 // ⚙️ CONFIGURATION & INITIALIZATION
 // ========================================
 
+const SUPABASE_URL = 'https://temivphngaentnibijvu.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRlbWl2cGhuZ2FlbnRuaWJpanZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg4MTg4MjYsImV4cCI6MjA4NDM5NDgyNn0.ng7iTSxpxzf-IldB0pZGKhHbWFgX-VII_X1vd_FXIOs';
 
 // Global Variables
 window.sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -1890,3 +1892,4 @@ if (installBtn) {
   });
 
 }
+
